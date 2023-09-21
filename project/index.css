@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  padding: 3px;
+}
+
+.container-center {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+
+  width: 80%; /* Lebar container, bisa dalam piksel (px) atau persen (%) */
+  margin: 0 auto; /* Membuat container berada di tengah halaman */
+  padding: 20px; /* Ruang dalam (padding) di sekitar konten */
+  background-color: #f2f2f2; /* Warna latar belakang container */
+  border: 1px solid #ccc; /* Border container */
+  border-radius: 5px;
+}
+
+.container-field {
+  display: flex;
+  margin-bottom: 3px;
+  gap: 3px;
+}
+
+/* Input */
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border: solid #000;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-remove {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-remove:hover {
+  background-color: #bb2d3b;
+  border-color: #bb2d3b;
+}
+
+.btn-add {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-add:hover {
+  background-color: #157347;
+  border-color: #157347;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-submit:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+.btn-list {
+  display: flex;
+  gap: 3px;
+}
+
+/* Input */
+.input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input:hover {
+  border-color: #3498db;
+}
+
+.input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* CSS Dasar Tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Warna latar belakang header tabel */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Warna latar belakang baris ganjil */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Efek Hover pada Baris */
+tr:hover {
+  background-color: #e0e0e0;
+}
